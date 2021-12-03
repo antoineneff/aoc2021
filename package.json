@@ -1,0 +1,13 @@
+{
+  "name": "aoc2021",
+  "version": "1.0.0",
+  "description": "Advent of code 2021",
+  "type": "module",
+  "main": "01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["advent", "code"],
+  "author": "Antoine Neff",
+  "license": "ISC"
+}
