@@ -75,13 +75,11 @@ async function part2() {
   let bingo = []
 
   for (const number of numbers) {
-    console.log('Check number', number)
     // Mark boards with picked number
     boards = markBoards(boards, number)
     // Check boards for bingo
     bingo = checkBingo(boards)
     if (bingo.length > 0) {
-      console.log('remove boards', bingo)
       for (const index of bingo) {
         if (boards.length === 1) {
           const sum = getSum(boards[0])
