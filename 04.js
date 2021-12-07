@@ -91,5 +91,3 @@ async function part2() {
     }
   }
 }
-
-part2()
