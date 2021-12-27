@@ -86,8 +86,9 @@ async function part2() {
           return sum * number
         }
         // Remove board and continue
-        boards.splice(index, 1)
+        boards[index] = null
       }
     }
+    boards = boards.filter(board => board !== null)
   }
 }
